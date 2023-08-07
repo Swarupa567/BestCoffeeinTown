@@ -7,6 +7,9 @@ import coffeeText from '../../assets/Coffee.png'
 import Link from 'next/link'
 import blast from '../../assets/coffee_blast.png';
 
+interface props{
+    align:string;
+}
 export default function Banner(){
     return(
         <>
@@ -42,14 +45,14 @@ export default function Banner(){
     </Wrap>
    </div> 
   <div style={{position:'absolute', top:'8rem', margin:'3rem'}}>
-  <Text lineHeight='60px' color='white'>We've got your morning covered with</Text><br />
+  <Text lineHeight='60px' color='white'>We&#39;ve got your morning covered with</Text><br />
    <Image 
         src={coffeeText}
         width={200}
         height={200}
         alt="coffee"
    /><br />
-   <Text color='white' style={{wordWrap:'break-all'}}>It is best to start your day with a cup of coffee. Discover the <br />
+   <Text color='white'>It is best to start your day with a cup of coffee. Discover the <br />
    best flavours coffee you will ever have. We Provide<br/> 
    the best for our customers.</Text><br />
    <Button borderRadius='18' lineHeight='60px' colorScheme='yellow'>Order Now</Button>

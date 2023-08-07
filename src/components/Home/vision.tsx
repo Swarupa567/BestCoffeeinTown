@@ -13,7 +13,7 @@ export default function Vision(){
             <div style={{display:'flex', justifyContent:'space-between'}}>
                 <div style={{align:'center', marginLeft:'27rem', marginTop:'3rem'}}>
                     <Heading as='h2' size='xl' color='#6F4E37' align='center'>Why are we different?</Heading>
-                    <Text align='center' color='grey'>We don't just make your coffee, we make your day!</Text>
+                    <Text align='center' color='grey'>We don&#39;t just make your coffee, we make your day!</Text>
                 </div>
                <div style={{marginTop:'-88px'}}>
                <Image 
