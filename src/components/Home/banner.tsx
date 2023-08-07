@@ -45,7 +45,7 @@ export default function Banner(){
     </Wrap>
    </div> 
   <div style={{position:'absolute', top:'8rem', margin:'3rem'}}>
-  <Text lineHeight='60px' color='white'>We&#39;ve got your morning covered with</Text><br />
+  <Text lineHeight='60px' color='white'>We`&#39;`ve got your morning covered with</Text><br />
    <Image 
         src={coffeeText}
         width={200}

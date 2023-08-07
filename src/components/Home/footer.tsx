@@ -24,7 +24,7 @@ export default function Footer(){
         </div>
         <div style={{position: 'absolute',top: '234rem',marginLeft: '23rem'}}>
          <Heading as='h1' align='center' >Subscribe to get the latest news</Heading>
-         <Text align='center' >Don&#39;t miss out on our latest new, updates, tips and special offers</Text>
+         <Text align='center' >Don`&#39;`t miss out on our latest new, updates, tips and special offers</Text>
         </div>
         <div style={{display:'flex', justifyContent:'space-between', position:'absolute', bottom:'23rem'}}>
         <div>
@@ -72,7 +72,7 @@ export default function Footer(){
             <Heading as= 'h3' color='white'>Bean Scene</Heading><br />
             <Text color='white'>Lorem Ipsum is simply dummy text of <br />
             the printing and typesetting industry. Lorem<br />
-             Ipsum has been the industry&#39;s standard dummy <br />
+             Ipsum has been the industry`&#39;`s standard dummy <br />
              text ever since the 1500s, when an unknown printer <br />
             and scrambled it to make a type specimen book.</Text><br />
              <div style={{display:'flex', justifyContent:'space-evenly'}}>
